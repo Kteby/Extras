@@ -1,22 +1,23 @@
 {
-    "version": "1.17.21",
+    "version": "1.30.0",
     "description": "Reasonix Desktop, official GUI for Reasonix, a DeepSeek-native AI coding agent built to reduce API costs through aggressive context caching.",
     "homepage": "https://reasonix.io",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/desktop-v1.17.21/Reasonix-windows-amd64.zip",
-            "hash": "0d653a72f2e60e3a730d3b5ecb7b442af65a2fb388a3869387ac3e03689fbc19"
+            "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/desktop-v1.30.0/Reasonix-windows-amd64.zip",
+            "hash": "21fcb23b5343d010954b1e064b54337468ae99e329614add9895d5f3d1fc1add"
         },
         "arm64": {
-            "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/desktop-v1.17.21/Reasonix-windows-arm64.zip",
-            "hash": "cd8c0029ee33462b8402c3ef4205d18c0f1812f35d073c8d274ee08772672765"
+            "url": "https://github.com/esengine/DeepSeek-Reasonix/releases/download/desktop-v1.30.0/Reasonix-windows-arm64.zip",
+            "hash": "c0b51fb458eab667c76628d1336d9ee1625286e147d985a4d612cc71b6606926"
         }
     },
     "shortcuts": [
         [
-            "Reasonix.exe",
-            "Reasonix Desktop"
+            "reasonix-launcher.exe",
+            "Reasonix Desktop",
+            "launch --detach"
         ]
     ],
     "checkver": {

@@ -1,5 +1,5 @@
 {
-    "version": "1.9.12",
+    "version": "2.0.8",
     "description": "A desktop client that supports for multiple LLM providers.",
     "homepage": "https://cherry-ai.com",
     "license": "Apache-2.0",
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.9.12/Cherry-Studio-1.9.12-x64-portable.exe#/cherry-studio.exe",
-            "hash": "371410d1d5d4a1ba392a23c913819fa44d2c3da045fd5400f162efc9d2fa4c01"
+            "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v2.0.8/Cherry-Studio-2.0.8-x64-portable.exe#/cherry-studio.exe",
+            "hash": "2308e4a788f6f81673c3222a2479115969057f1d22118f449d556194632a5d53"
         },
         "arm64": {
-            "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.9.12/Cherry-Studio-1.9.12-arm64-portable.exe#/cherry-studio.exe",
-            "hash": "cf172c9f947f176f401b833d3d7f1038182720f61296616ae6eda411b17e14cd"
+            "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v2.0.8/Cherry-Studio-2.0.8-arm64-portable.exe#/cherry-studio.exe",
+            "hash": "6ed51088b55f955a8a7bdc6a3bd27027f162a9a2a7e77717336adb4bd43b189f"
         }
     },
     "pre_install": [
