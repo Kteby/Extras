@@ -1,5 +1,5 @@
 {
-    "version": "1.0.9-2",
+    "version": "1.1.2-11",
     "description": "Local-first AI agent for work and code. Runs open models on your machine (llama.cpp) or in LM Studio Cloud, with codebase, document and voice tools.",
     "homepage": "https://lmstudio.ai",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://bionic-installers.lmstudio.ai/win32/x64/1.0.9-2/Bionic-1.0.9-2-x64.exe#/dl.7z",
-            "hash": "daea68ba2d50b3de1ac6952c299ef300829f4866c58a8c8a1a8986371ff5fc29"
+            "url": "https://bionic-installers.lmstudio.ai/win32/x64/1.1.2-11/Bionic-1.1.2-11-x64.exe#/dl.7z",
+            "hash": "6b21aa94f2c2459220cc6b68046c2999f78edbed8c9885afc92d933973e43fb5"
         }
     },
     "installer": {

@@ -1,12 +1,12 @@
 {
-    "version": "2.8.43",
+    "version": "2.8.46",
     "description": "All-in-one collaboration platform for API documentation, API debugging, API Mock and API test automation.",
     "homepage": "https://apifox.com",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://file-assets.apifox.com/download/2.8.43/Apifox-2.8.43.exe#/dl.7z",
-            "hash": "sha512:b8e793f31cac4f3db958c38b89623dc017e42f16c1904734566c79631b88329fed864a28054c529b525b97857e47644a8896e917b89701d63acf3e3ad6c16e15"
+            "url": "https://file-assets.apifox.com/download/2.8.46/Apifox-2.8.46.exe#/dl.7z",
+            "hash": "sha512:1e6cc2a87c70ba86587d321a5c1702e94608b303fc554fe9e1b2112322a19e6e0d18fe63430238715c04e5be9f7a3f3f609cd8c1cf1f44a2b9acbe72d2606158"
         }
     },
     "pre_install": [
@@ -26,8 +26,8 @@
         "Start-Sleep -Milliseconds 1500"
     ],
     "checkver": {
-        "url": "https://docs.apifox.com/changelog.md",
-        "regex": "## ([\\d.]+)(?=\\s)"
+        "url": "https://api.apifox.cn/api/v1/configs/client-updates/0.0.0/win64/client-updates.yml",
+        "regex": "version:\\s*([\\d.]+)(?=\\s)"
     },
     "autoupdate": {
         "architecture": {

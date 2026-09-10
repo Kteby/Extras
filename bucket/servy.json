@@ -1,18 +1,18 @@
 {
-    "version": "9.6",
+    "version": "10.0",
     "description": "Servy lets you run any app as a native Windows service with full control over the working directory, startup type, process priority, CPU affinity, logging, health checks, environment variables, dependencies, pre-launch and post-launch hooks, pre-stop and post-stop hooks, and parameters.",
     "homepage": "https://servy-win.github.io",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aelassas/servy/releases/download/v9.6/servy-9.6-x64-portable.7z",
-            "hash": "61f9a7804baa07884a694688e4b358b0fec502341f04b0a188d043e0628e7513",
-            "extract_dir": "servy-9.6-x64-portable"
+            "url": "https://github.com/aelassas/servy/releases/download/v10.0/servy-10.0-x64-portable.7z",
+            "hash": "f8ce5671f95dd832974b6c4942c1577d789f4e075f50eb09f2b99d5e9c1378ed",
+            "extract_dir": "servy-10.0-x64-portable"
         },
         "arm64": {
-            "url": "https://github.com/aelassas/servy/releases/download/v9.6/servy-9.6-arm64-portable.7z",
-            "hash": "d9ae94574c1297274904b978447f0d10ebcc23faf9ad80d65f79210846af1c06",
-            "extract_dir": "servy-9.6-arm64-portable"
+            "url": "https://github.com/aelassas/servy/releases/download/v10.0/servy-10.0-arm64-portable.7z",
+            "hash": "130fa91581cbad221e0664c6a6f6cc509eccb8e8f6d49cf93285156840beabcd",
+            "extract_dir": "servy-10.0-arm64-portable"
         }
     },
     "bin": "servy-cli.exe",

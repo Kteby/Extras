@@ -1,10 +1,10 @@
 {
-    "version": "4.6.6",
+    "version": "4.6.9",
     "description": "A desktop client for Gmail and Google Apps",
     "homepage": "https://kiwiforgmail.com/",
     "license": "Proprietary",
-    "url": "https://downloads.kiwiforgmail.com/kiwi/release/consumer/Kiwi+for+Gmail+Setup+4.6.6.exe#/dl.7z",
-    "hash": "sha512:2ee363beec72adca52470074ebcb92724e14d09fc2d0767d0f6a49c5dbcb54a6b633af2c0ba6e810d35ce99450e8c034fd1eab3590b57387c778d489b15cf878",
+    "url": "https://downloads.kiwiforgmail.com/kiwi/release/consumer/Kiwi+for+Gmail+Setup+4.6.9.exe#/dl.7z",
+    "hash": "sha512:d0ed4e9fd4b12a66c452e1f5f4d2ae91cbfa6ef980a3398fe79daee6447575886ae1e22b914160f0390372f500becfbf9df62c172099413ae14f83fc3c57792d",
     "architecture": {
         "64bit": {
             "pre_install": [

@@ -1,5 +1,5 @@
 {
-    "version": "4.3.34",
+    "version": "4.3.104",
     "homepage": "https://www.beeper.com/",
     "description": "Universal chat app powered by Matrix",
     "license": {
@@ -8,16 +8,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://beeper-desktop.download.beeper.com/builds/Beeper%20x64%204.3.34.exe#/dl.7z",
-            "hash": "f14d20aed99a3b7d7163bd982d1771a7a104b3fb88582f83140c0f4ec4ca9d24",
+            "url": "https://beeper-desktop.download.beeper.com/builds/Beeper%20x64%204.3.104.exe#/dl.7z",
+            "hash": "24f738963aebd542cfe4ccf9dda24afc22845eb728820e275dbb70725a10c919",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
                 "Remove-Item \"$dir\\`$*\" -Recurse"
             ]
         },
         "arm64": {
-            "url": "https://beeper-desktop.download.beeper.com/builds/Beeper%20arm64%204.3.34.exe#/dl.7z",
-            "hash": "78254023eecffa5643979969e2eb18cc159667fc5395b52eb6937bebfc1deaed",
+            "url": "https://beeper-desktop.download.beeper.com/builds/Beeper%20arm64%204.3.104.exe#/dl.7z",
+            "hash": "9bf8943eadfdba298d81412a193c49b4c6b72b22783ad96bd1f0b2c1f6945647",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-arm64.7z\" \"$dir\" -Removal",
                 "Remove-Item \"$dir\\`$*\" -Recurse"

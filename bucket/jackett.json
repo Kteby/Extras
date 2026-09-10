@@ -1,13 +1,13 @@
 {
-    "version": "0.24.2424",
+    "version": "0.24.2551",
     "description": "API Support for your favorite torrent trackers",
     "homepage": "https://github.com/Jackett/Jackett",
     "license": {
         "identifier": "GPL-2.0-or-later",
         "url": "https://github.com/Jackett/Jackett/blob/HEAD/LICENSE"
     },
-    "url": "https://github.com/Jackett/Jackett/releases/download/v0.24.2424/Jackett.Binaries.Windows.zip",
-    "hash": "fe1db3d9b4c413c32dd779df91811078e7ce4fe731054b4ac3e3ecc5d9178fa6",
+    "url": "https://github.com/Jackett/Jackett/releases/download/v0.24.2551/Jackett.Binaries.Windows.zip",
+    "hash": "bc0ed81dd5c08a09724fca1b504478827f8f8735471dd347f5e7c2525bc16723",
     "extract_dir": "Jackett",
     "shortcuts": [
         [

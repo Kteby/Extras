@@ -1,12 +1,12 @@
 {
-    "version": "1.8.3",
+    "version": "1.9.2",
     "description": "Voice-to-text dictation app with local and cloud models",
     "homepage": "https://openwhispr.com",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/OpenWhispr/openwhispr/releases/download/v1.8.3/OpenWhispr-Setup-1.8.3.exe#/dl.7z",
-            "hash": "sha512:1d664c817ba6bb13af82f6a2bbfc1a3f77d58860c410e213eb8fa5bc6ccce2370e79b541c7e92fbbd7df1ed5c1f0f46e1ac3822af7af3d4733e6b36ce7ba04a1",
+            "url": "https://github.com/OpenWhispr/openwhispr/releases/download/v1.9.2/OpenWhispr-Setup-1.9.2.exe#/dl.7z",
+            "hash": "sha512:3543a768e94107e545cdbeeaaf70b543ac8b4ef001a184b8b15fc059cd4c16956ea7894a054f36a71f6a665410107d90bea0d1f36f254ba1087b7055a387f039",
             "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
         }
     },
