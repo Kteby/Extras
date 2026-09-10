@@ -13,7 +13,7 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://download.jetbrains.com/idea/idea-2026.2.2.win.zip",
+            "url": "https://download-cdn.jetbrains.com/idea/idea-2026.2.2.win.zip",
             "hash": "5a8b7af34ac62b83914435bc54a0b5062f20bc70586f2c1aa31c6602af8aabf6",
             "bin": [
                 [
@@ -29,7 +29,7 @@
             ]
         },
         "arm64": {
-            "url": "https://download.jetbrains.com/idea/idea-2026.2.2-aarch64.win.zip",
+            "url": "https://download-cdn.jetbrains.com/idea/idea-2026.2.2-aarch64.win.zip",
             "hash": "5e0876942ff5184cf95f40a9ca4b14283fa1613573da6ba72161fb0e94c3850e",
             "bin": [
                 [
@@ -63,10 +63,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://download.jetbrains.com/idea/idea-$matchVer.win.zip"
+                "url": "https://download-cdn.jetbrains.com/idea/idea-$matchVer.win.zip"
             },
             "arm64": {
-                "url": "https://download.jetbrains.com/idea/idea-$matchVer-aarch64.win.zip"
+                "url": "https://download-cdn.jetbrains.com/idea/idea-$matchVer-aarch64.win.zip"
             }
         },
         "hash": {
