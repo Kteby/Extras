@@ -10,7 +10,7 @@
     "architecture": {
         "64bit": {
             "url": "https://www.nyam.pe.kr/dev/imagine/download.php?arch=x64&unicode=1&full=0&setup=0&version=2.7.0#/dl.zip",
-            "hash": "e814154d07c5a200e07f3fe26a4a286a351254b3e9508462212dafe885b5d000",
+            "hash": "6443c54e4a6aee1931ffad231093dc9a323b34d6af06ed87d1d672acfe7a998c",
             "bin": [
                 "Imagine64.exe",
                 [
@@ -27,7 +27,7 @@
         },
         "32bit": {
             "url": "https://www.nyam.pe.kr/dev/imagine/download.php?arch=x86&unicode=1&full=0&setup=0&version=2.7.0#/dl.zip",
-            "hash": "6ea312086c3ae47bea785ff812d6fc5a02441ba9b663ebc0c8a69f5ff612843f",
+            "hash": "5a8a8a7fe6224ce1034e20717677107ee19a08a404e4ba13b01ff51233ca48eb",
             "bin": "Imagine.exe",
             "shortcuts": [
                 [
@@ -38,7 +38,7 @@
         },
         "arm64": {
             "url": "https://www.nyam.pe.kr/dev/imagine/download.php?arch=arm64&unicode=1&full=0&setup=0&version=2.7.0#/dl.zip",
-            "hash": "a2479216550d644f96164882880ca73dbdf1a1dc7ba595f45dc16491f860cad0",
+            "hash": "095c7d1b51ad6ee9076fff3287d3320a63427ad78b4dfcbf888f047c3d4e1bfc",
             "bin": [
                 "ImagineA64.exe",
                 [
