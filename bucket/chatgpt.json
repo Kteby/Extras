@@ -1,5 +1,5 @@
 {
-    "version": "26.903.8094.0",
+    "version": "26.917.8451.0",
     "description": "Desktop application for ChatGPT",
     "homepage": "https://chatgpt.com/",
     "license": {
@@ -11,12 +11,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://persistent.oaistatic.com/codex-app-prod/releases/26.903.8094.0/ChatGPT-x64.msix#/dl.zip",
-            "hash": "f8a845dd58f177fbcd71b01c7831d742fc90855e4b207ee2d8ce3ab5f9bcc30f"
+            "url": "https://persistent.oaistatic.com/codex-app-prod/releases/26.917.8451.0/ChatGPT-x64.msix#/dl.zip",
+            "hash": "ccd6002255042589b6ee1e711818a6703509d4a288851bea455da5a8125f25d0"
         },
         "arm64": {
-            "url": "https://persistent.oaistatic.com/codex-app-prod/releases/26.903.8094.0/ChatGPT-arm64.msix#/dl.zip",
-            "hash": "9e69aa06823922eb0b2cd1b5cf1ed55f026a94aa8521aee572253a3ee02e9329"
+            "url": "https://persistent.oaistatic.com/codex-app-prod/releases/26.917.8451.0/ChatGPT-arm64.msix#/dl.zip",
+            "hash": "78d13513debeb2b10c6edbab30946759ab958dade3dd59d5bb4aa9f64f63b65d"
         }
     },
     "extract_dir": "app",
@@ -26,6 +26,10 @@
             "ChatGPT"
         ]
     ],
+    "env_set": {
+        "CODEX_CLI_PATH": "$dir\\resources\\codex.exe",
+        "CODEX_SPARKLE_ENABLED": "false"
+    },
     "checkver": {
         "url": "https://persistent.oaistatic.com/codex-app-prod/windows-store-update.json",
         "jsonpath": "$.buildVersion"

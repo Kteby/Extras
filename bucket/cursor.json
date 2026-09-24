@@ -1,5 +1,5 @@
 {
-    "version": "3.20.21",
+    "version": "3.21.18",
     "description": "The AI Code Editor",
     "homepage": "https://www.cursor.com/",
     "license": {
@@ -9,12 +9,12 @@
     "innosetup": true,
     "architecture": {
         "64bit": {
-            "url": "https://downloads.cursor.com/production/f09fca384ceca23f7bf21f9c23655b162641d747/win32/x64/user-setup/CursorUserSetup-x64-3.20.21.exe",
-            "hash": "67373f57b6d357cabed12fd24dc6101f4d7f140eb950e9a1fe9e870f8ed48e7f"
+            "url": "https://downloads.cursor.com/production/c4730f7d93d787d9ab120af715999f0345ee5bc5/win32/x64/user-setup/CursorUserSetup-x64-3.21.18.exe",
+            "hash": "11993b535943d94ed2b9039932b2ee5a75ca8b2630100f3d11ed5489fc670ddd"
         },
         "arm64": {
-            "url": "https://downloads.cursor.com/production/f09fca384ceca23f7bf21f9c23655b162641d747/win32/arm64/user-setup/CursorUserSetup-arm64-3.20.21.exe",
-            "hash": "47de593eebbbf0bccdf1cd7e74d6367ab90e71543f49eb5736fb333102f898e1"
+            "url": "https://downloads.cursor.com/production/c4730f7d93d787d9ab120af715999f0345ee5bc5/win32/arm64/user-setup/CursorUserSetup-arm64-3.21.18.exe",
+            "hash": "daa024f7563a25c92d20e78e8310ae7297d7b0998684d1b096ddd844e678c367"
         }
     },
     "extract_dir": "{code_GetDestDir}",

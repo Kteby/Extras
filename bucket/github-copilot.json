@@ -1,5 +1,5 @@
 {
-    "version": "1.1.21",
+    "version": "1.1.23",
     "description": "GitHub Copilot, an agent-native desktop development environment.",
     "homepage": "https://github.com/github/app",
     "license": {
@@ -9,12 +9,12 @@
     "notes": "Requires an active GitHub Copilot subscription (Pro, Pro+, Business, or Enterprise) and Git installed.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/github/app/releases/download/v1.1.21/GitHub-Copilot-windows-x64.msi",
-            "hash": "a9519b97121229b7b1dec421ae2b989da93835a106cdb0ea9ed4a0c5fa73c612"
+            "url": "https://github.com/github/app/releases/download/v1.1.23/GitHub-Copilot-windows-x64.msi",
+            "hash": "b0f1851edb5d202e6cc4d35ef313c2ebdf898f074712e848099f3de2b99cecb3"
         },
         "arm64": {
-            "url": "https://github.com/github/app/releases/download/v1.1.21/GitHub-Copilot-windows-arm64.msi",
-            "hash": "25a3ee2dc07b6f1befe9444f67b7e84c8af710c0b68bfe11ab309ff7a7228a4d"
+            "url": "https://github.com/github/app/releases/download/v1.1.23/GitHub-Copilot-windows-arm64.msi",
+            "hash": "8789d9c88f4fa8bd43903ae6f71014391b039e10518aae623bffe2577d9d5c26"
         }
     },
     "extract_dir": "PFiles\\GitHub Copilot",
