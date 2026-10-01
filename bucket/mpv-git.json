@@ -1,5 +1,5 @@
 {
-    "version": "202609241248",
+    "version": "202609301239",
     "description": "A free, open source, and cross-platform media player",
     "homepage": "https://mpv.io",
     "license": "LGPL-2.1-or-later,GPL-2.0-or-later",
@@ -12,12 +12,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/2026-09-24-2a4eb8067c/mpv-x86_64-20260924-git-2a4eb8067c.7z",
-            "hash": "872a99656af6c28574978c3d5d7a144bda3c0689204b61561c348f0a55a30aad"
+            "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/2026-09-30-3186d369f9/mpv-x86_64-20260930-git-3186d369f9.7z",
+            "hash": "0abb26323a109b043697953f6a7b20471704ad1fcd75620fed5ffff67d888145"
         },
         "arm64": {
-            "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/2026-09-24-2a4eb8067c/mpv-aarch64-20260924-git-2a4eb8067c.7z",
-            "hash": "5ec58b168d1776fdbe6bc870927fef64fc3c6307c65aebf9de69791ec78b3a60"
+            "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/2026-09-30-3186d369f9/mpv-aarch64-20260930-git-3186d369f9.7z",
+            "hash": "938b8acaf1776c247a0ce54bb71e222dd2039adf7c8c6800edec480cf46c8b37"
         }
     },
     "pre_install": "'updater.bat', 'installer' | ForEach-Object { Remove-Item \"$dir\\$_\" -Recurse }",

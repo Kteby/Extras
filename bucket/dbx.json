@@ -1,12 +1,16 @@
 {
-    "version": "0.6.23",
+    "version": "0.6.29",
     "description": "Lightweight, cross-platform database client",
     "homepage": "https://dbxio.com",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/t8y2/dbx/releases/download/v0.6.23/DBX_0.6.23_x64-portable.zip",
-            "hash": "c88e5808985319decec7b08ee225f9f77f01fe36a87988b43c9eb43cba550c5d"
+            "url": "https://github.com/t8y2/dbx/releases/download/v0.6.29/DBX_0.6.29_x64-portable.zip",
+            "hash": "85f056c8baa819ee7de75ac7ccd1c16a5e7cca7c062ec74ce36e2111fa71c031"
+        },
+        "arm64": {
+            "url": "https://github.com/t8y2/dbx/releases/download/v0.6.29/DBX_0.6.29_arm64-portable.zip",
+            "hash": "7afac603a3457b7dccb7d3b1a16c0eb1208be108520c1216ad8bc1fd904a2b1b"
         }
     },
     "shortcuts": [
@@ -26,6 +30,9 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/t8y2/dbx/releases/download/v$version/DBX_$version_x64-portable.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/t8y2/dbx/releases/download/v$version/DBX_$version_arm64-portable.zip"
             }
         }
     }
